@@ -3,7 +3,7 @@ import { skillsData } from "../Utils/Constants";
 const Skills = () => (
   <section id="skills" className="section-main">
     <div>
-      <h2 className="text-4xl font-bold mb-6 text-center">Skills</h2>
+      <h2 className="page-headings">Skills</h2>
       <p className="text-xl mb-12">
         I have expertise in the following technologies, tools, and libraries,
         which allow me to build modern, scalable, and responsive web

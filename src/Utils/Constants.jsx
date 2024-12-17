@@ -1,6 +1,11 @@
 import MernImg from "../assets/Mern.png";
 import FrontendImg from "../assets/Frontend.png";
 import BackendImg from "../assets/Backend.png";
+import ProjectRaves from "../assets/project-raves.png";
+import ProjectEventCalander from "../assets/project-eventCalander.png";
+import projectInstaShare from "../assets/project-instaShare.png";
+import projectCharity from "../assets/project-charity.png";
+import projectShipmentBooking from "../assets/project-shipmentBooking.png";
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 import {
   FaReact,
@@ -24,12 +29,12 @@ export const NavLinks = [
   {
     name: "Home",
     href: "#home",
-    className: "hover:text-cyan-light transition-colors duration-300",
+    className: "hover:text-primary-focus transition-colors duration-300",
   },
   {
     name: "About",
     href: "#about",
-    className: "hover:text-cyan-light transition-colors duration-300",
+    className: "hover:text-cyan-100 transition-colors duration-300",
   },
   {
     name: "Skills",
@@ -123,40 +128,53 @@ export const skillsData = [
 
 export const projects = [
   {
-    title: "E-Commerce Website",
-    description: "An e-commerce platform with advanced search and filter.",
-    imageUrl: "", // Add your image URL here
-    githubLink: "https://github.com/your-profile/ecommerce",
-    projectLink: "https://ecommerce.example.com",
+    title: "Raves",
+    description:
+      "RAVES is an HRMS & EMS platform that optimizes workforce management with modules like Companies, Resources, Work Orders, Timesheets, and Payroll. It enhances efficiency by streamlining employee management and contract handling.",
+    imageUrl: ProjectRaves,
+    git: false,
+    live: false,
+    githubLink: "",
+    projectLink: "https://hrms.example.com",
+  },
+  {
+    title: "Event Calander",
+    description:
+      "Organize your schedule effortlessly with a versatile event calendar featuring small and large views. Add, edit, or delete events and participants to streamline your planning process.",
+    imageUrl: ProjectEventCalander,
+    githubLink: "",
+    projectLink: "https://event-calander.netlify.app",
     git: true,
     live: true,
   },
   {
-    title: "HRMS Tool",
-    description: "A comprehensive employee management system.",
-    imageUrl: "", // Add your image URL here
-    githubLink: "https://github.com/your-profile/hrms",
-    projectLink: "https://hrms.example.com",
+    title: "Insta Share",
+    description:
+      "Experience a modern Instagram clone with customizable light and dark themes. Enjoy seamless social interactions and personalized features for a unique user experience.",
+    imageUrl: projectInstaShare,
+    githubLink: "",
+    projectLink: "https://instaashare.netlify.app",
+    git: true,
+    live: true,
   },
   {
-    title: "HRMS Tool",
-    description: "A comprehensive employee management system.",
-    imageUrl: "", // Add your image URL here
-    githubLink: "https://github.com/your-profile/hrms",
-    projectLink: "https://hrms.example.com",
+    title: "Charity Site",
+    description:
+      "EmpowerChange is a dedicated platform to support children's welfare by providing shelter, food, and education. Join us in making a difference through generous donations and spreading hope.",
+    imageUrl: projectCharity,
+    githubLink: "",
+    projectLink: "https://shelterwings.netlify.app",
+    git: true,
+    live: true,
   },
   {
-    title: "HRMS Tool",
-    description: "A comprehensive employee management system.",
-    imageUrl: "", // Add your image URL here
-    githubLink: "https://github.com/your-profile/hrms",
-    projectLink: "https://hrms.example.com",
-  },
-  {
-    title: "HRMS Tool",
-    description: "A comprehensive employee management system.",
-    imageUrl: "", // Add your image URL here
-    githubLink: "https://github.com/your-profile/hrms",
-    projectLink: "https://hrms.example.com",
+    title: "Shipment Booking",
+    description:
+      "ShipmentBooking is a user-friendly application for seamless shipment booking and real-time tracking. Simplify logistics with efficient booking and stay updated with accurate tracking features.",
+    imageUrl: projectShipmentBooking,
+    githubLink: "",
+    projectLink: "https://shipment-booking.netlify.app",
+    git: true,
+    live: true,
   },
 ];

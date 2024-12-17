@@ -10,11 +10,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="shadow-xl sticky w-full top-0 z-50 h-[100px] bg-[#112837] rounded-full my-3 px-10 opacity-95">
+    <nav className="shadow-xl sticky w-full top-0 z-50 h-[100px] bg-[#05445e] rounded-full my-3 px-10 opacity-95">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img src={Logo} alt="logo" className="w-20" />
-          <div className="text-2xl font-bold">
+          <div className="text-2xl font-bold primary-focus">
             <a href="#home">Krishna Goutham</a>
           </div>
         </div>
@@ -24,7 +24,7 @@ const Navbar = () => {
             <a
               key={item.href}
               href={item.href}
-              className={`text-lg font-medium ${item.className}`}
+              className={`text-lg font-medium hover:text-[#00ffe5] ${item.className}`}
             >
               {item.name}
             </a>

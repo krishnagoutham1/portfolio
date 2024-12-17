@@ -1,12 +1,12 @@
 import HomeImg from "../assets/HomeImg.png";
-import { ReactTyped } from "react-typed"; // Importing ReactTyped library
+import { ReactTyped } from "react-typed";
 
 const Home = () => (
   <section id="home" className="section-main flex items-center justify-between">
     <div className="flex items-center justify-between">
       <div className="w-full md:w-[50%] lg:w-[50%]">
         <h1 className="text-2xl lg:text-4xl font-bold">Hello There 👋, I am</h1>
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold my-4">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold my-4 primary-focus">
           Krishna Goutham
         </h1>
         <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold mb-3">

@@ -3,8 +3,8 @@ import { socialLinks, tiltAbout } from "../Utils/Constants";
 
 const About = () => (
   <section id="about" className="section-main">
-    <h1 className="text-center text-3xl font-bold mb-3">About</h1>
-    <div className="">
+    <h1 className="page-headings">About</h1>
+    <div>
       <ul className="list-disc list-inside text-lg leading-relaxed">
         <li>
           Passionate and detail-oriented Front-End Developer with 3+ years of
@@ -24,7 +24,7 @@ const About = () => (
       </ul>
     </div>
 
-    <div className="flex flex-wrap justify-center gap-8 mb-16">
+    <div className="flex flex-wrap justify-center gap-8 my-16">
       {tiltAbout.map((tilt, index) => (
         <Tilt key={index}>
           <div className="tilt-gradient rounded-lg shadow-lg p-[1px]">
