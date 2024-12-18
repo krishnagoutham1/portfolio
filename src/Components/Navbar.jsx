@@ -10,8 +10,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="px-1 sm:px-0 lg:px-48 sticky top-0">
-      <nav className="h-[100px] bg-[#203d65] md:rounded-full my-3 px-3 sm:px-4 md:px-10 opacity-95">
+    <div className="px-1 sm:px-0 lg:px-48 sticky top-0 z-50">
+      <nav className="h-[100px] bg-[#05445e] w-full md:rounded-full my-3 px-3 sm:px-4 md:px-10 opacity-95">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img src={Logo} alt="logo" className="w-20" />
@@ -66,7 +66,7 @@ const Navbar = () => {
         </div>
 
         {isMobileMenuOpen && (
-          <div className="md:hidden bg-teal-dark text-white py-4 rounded-lg mt-3 shadow-lg">
+          <div className="md:hidden bg-teal-dark text-white py-4 rounded-lg mt-3 shadow-lg bg-[#05445e]">
             {NavLinks.map((item) => (
               <a
                 key={item.href}

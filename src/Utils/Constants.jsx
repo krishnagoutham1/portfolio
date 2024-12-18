@@ -153,9 +153,9 @@ export const projects = [
       "RAVES is an HRMS & EMS platform that optimizes workforce management with modules like Companies, Resources, Work Orders, Timesheets, and Payroll. It enhances efficiency by streamlining employee management and contract handling.",
     imageUrl: ProjectRaves,
     git: false,
-    live: true,
+    live: false,
     githubLink: "",
-    projectLink: "https://lucidraves.ai/",
+    projectLink: "",
   },
   {
     title: "Event Calander",
