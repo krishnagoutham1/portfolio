@@ -1,7 +1,7 @@
 import { socialLinks } from "../Utils/Constants";
 
 const Footer = () => (
-  <footer className="md:flex flex-row-reverse items-center justify-between p-3">
+  <footer className="md:flex flex-row-reverse items-center justify-between p-3 md:px-20 sm:px-6">
     <div className="flex justify-center gap-8 mb-3">
       {socialLinks.map((links, index) => (
         <a
@@ -17,7 +17,7 @@ const Footer = () => (
     </div>
 
     <div className="mb-3">
-      <p>
+      <p className="text-center">
         &copy; {new Date().getFullYear()} Krishna Goutham. All rights reserved.
       </p>
     </div>

@@ -30,6 +30,7 @@
   min-height: calc(100vh - 7rem);
   margin-bottom: 7rem;
   scroll-snap-type: y;
+  @apply px-6 sm:px-10 lg:px-48;
 }
 
 .primary-focus {
@@ -42,4 +43,10 @@
   margin-bottom: 1.25rem;
   font-size: 2.25rem;
   color: #00ffe5;
+}
+
+.skills-svg {
+  background-image: url("./assets/bg.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }

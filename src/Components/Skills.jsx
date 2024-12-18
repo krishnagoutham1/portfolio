@@ -12,8 +12,8 @@ const Skills = () => (
     </div>
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
       {skillsData.map((skills, index) => (
-        <div key={index} className="flex flex-col items-center">
-          <div>{skills.icon}</div>
+        <div key={index} className="flex flex-col items-center ">
+          <div className="skills-svg px-6 py-4">{skills.icon}</div>
           <span className="text-lg font-semibold">{skills.skillName}</span>
         </div>
       ))}
