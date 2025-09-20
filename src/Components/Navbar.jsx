@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className="flex items-center gap-3">
             <img src={Logo} alt="logo" className="w-20" />
             <div className="text-2xl font-bold primary-focus">
-              <a href="#home">Krishna Goutham</a>
+              <a href="#home">Thalatam Venkata Naveen</a>
             </div>
           </div>
 
