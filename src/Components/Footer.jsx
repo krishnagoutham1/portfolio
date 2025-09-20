@@ -18,7 +18,7 @@ const Footer = () => (
 
     <div className="mb-3">
       <p className="text-center">
-        &copy; {new Date().getFullYear()} Krishna Goutham. All rights reserved.
+        &copy; {new Date().getFullYear()} Thalatam Venkata Naveen. All rights reserved.
       </p>
     </div>
   </footer>
