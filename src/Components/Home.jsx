@@ -7,7 +7,7 @@ const Home = () => (
       <div className="w-full md:w-[50%] lg:w-[50%]">
         <h1 className="text-2xl lg:text-4xl font-bold">Hello There 👋, I am</h1>
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold my-4 primary-focus">
-          Krishna Goutham
+         Thalatam Venkata Naveen
         </h1>
         <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold mb-3">
           <ReactTyped
